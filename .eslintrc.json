@@ -19,6 +19,7 @@
         "no-param-reassign" : "off",
         "no-else-return" : "off",
         "no-lonely-if" : "off",
-        "consistent-return" : "off"
+        "consistent-return" : "off",
+        "no-duplicate-imports" : "off"
     }
 }
