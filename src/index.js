@@ -1,5 +1,5 @@
 import { Tree } from "./Tree";
-import './style.scss'
+import './styles/style.scss'
 
 
 const prettyPrint = (node, prefix = "", isLeft = true) => {
@@ -22,10 +22,5 @@ newTree.insert(5);
 newTree.insert(6);
 newTree.insert(7);
 newTree.insert(8);
-console.log(newTree.levelOrder())
-console.log(newTree.preOrder())
-console.log(newTree.inOrder())
-console.log(newTree.postOrder())
-console.log(newTree.depth(newTree.find(1)))
 newTree.rebalance()
 prettyPrint(newTree.root)
